@@ -1,0 +1,23 @@
+{
+  "name": "photoalbum",
+  "version": "1.0.0",
+  "description": "相册",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "dev": "node-dev ./bin/www"
+  },
+  "author": "donymh@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-dev": "^4.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
